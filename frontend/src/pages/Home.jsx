@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import ParticlesBg from "../components/ParticlesBg";
+// import ParticlesBg from "../components/ParticlesBg";
 import { useAuth } from "../context/AuthContext";
 import { Link } from "react-router-dom";
 import { useTheme } from "../context/ThemeContext";
@@ -20,7 +20,7 @@ export default function Home() {
       dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition duration-500"
     >
       {/* 🌌 Particles */}
-      <ParticlesBg />
+      {/* <ParticlesBg /> */}
 
       {/* 🌈 Floating Blobs */}
       <motion.div
