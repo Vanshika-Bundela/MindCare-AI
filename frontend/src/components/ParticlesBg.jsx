@@ -1,4 +1,4 @@
-import Particles from "react-tsparticles";
+import Particles from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 
 export default function ParticlesBg() {
