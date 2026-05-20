@@ -1,10 +1,10 @@
 import Particles from "@tsparticles/react";
-import { loadFull } from "tsparticles";
+import { loadSlim} from "tsparticles/slim";
 
 export default function ParticlesBg() {
-  const particlesInit = async (main) => {
-    await loadFull(main);
-  };
+  const particlesInit = async (engine) => {
+  await loadSlim(engine);
+};
 
   return (
     <Particles
